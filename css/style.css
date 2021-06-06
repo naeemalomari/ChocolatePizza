@@ -1,9 +1,13 @@
 /* * {
     background-color: rgb(94, 94, 94);
 } */
-
+.containerall{
+    padding-right: 12%;
+    padding-left: 12% ;
+}
 
 h1 {
+    font-family: 'Caveat', cursive;
     display: inline;
 }
 
@@ -40,6 +44,7 @@ main section img {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  height: 400px;
 }
 
 
@@ -57,6 +62,77 @@ main div h2 {
 
 
 #note {
+    width: 100%;
+    height: 200px;
     background-image: url(/img/list-bg.png);
 }
+main q{
 
+    text-align: justify;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#form2{
+ float:right ;
+ position: relative;
+ right: 400px;
+ bottom: 132px;
+ font-size: x-large;
+}
+#form1{
+    position: relative;
+    top: 30px;
+
+    font-size: x-large;
+}
+#backgr{
+    position: relative;
+    top: 30px;
+}
+
+footer img{
+   position: relative;
+   top: 50px;
+    clear: both;
+}
+footer h3{
+    position: relative;
+    left: 70px;
+    bottom:30px;
+}
+footer n{
+    text-align: justify;
+    position: relative;
+    left:75px;
+    bottom: 50px;
+    color: gray;
+}
+a {
+    position: relative;
+    margin-left: 850px;
+    bottom: 70px;
+    padding: 20px;
+    background-color:brown;
+    color:white;
+    transition: background-color .5s;
+  }
+  
+  a:hover {
+    background-color: gold;
+  }
+  #second{
+      position: relative;
+      left:50%;
+  }
+  footer w{
+      color: lightgray;
+       position: relative;
+     left: 359px;
+     top: 70px;
+  }
+  footer mahmoud{
+    color: lightgray;
+    position: relative;
+    left: 430px;
+    top: 70px;
+}
